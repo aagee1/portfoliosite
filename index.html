@@ -11,70 +11,17 @@
 <script type="text/javascript">
 $(document).ready(function(){
 
-$('.imglinkdiv').css({
-    "background-position": "center",
-    "background-size": "cover",
-    "background-repeat": "no-repeat"
-}); //end css
+
 
 }); //end ready	
 </script>
+/* 
 <script src="https://use.typekit.net/thi6ojc.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
+*/
+
 </head>
 <body>
-
-<div id="headernav">
-<h1 id="headertitle"><a href="index.html">aageeworks</a></h1>
-<ul id="nav">
-<li><a href="#">About</a></li>
-<li><a href="#">Digital</a></li>
-<li><a href="#">Analog</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
-</div>
-
-<div id="main">
-
-<div class="linkwrap">
-<div class="imgfadebg"></div>
-<a class="imglinkdiv" style="background-image:url(#);" href="#"></a>
-<h5>Permalink</h5>
-</div>
-<div class="linkwrap">
-<div class="imgfadebg"></div>
-<a class="imglinkdiv" style="background-image:url(#);" href="#"></a>
-<h5>Permalink</h5>
-</div>
-<div class="linkwrap">
-<div class="imgfadebg"></div>
-<a class="imglinkdiv" style="background-image:url(#);" href="#"></a>
-<h5>Permalink</h5>
-</div>
-<div class="linkwrap">
-<div class="imgfadebg"></div>
-<a class="imglinkdiv" style="background-image:url(#);" href="#"></a>
-<h5>Permalink</h5>
-</div>
-
-</div>
-
-<script>
-$('.linkwrap h5').hide();
-//.on('event', function(){}); is the same as .event(function(){});
-$('.imglinkdiv').on('mouseenter', function(){
-    
-$(this).stop(true, false).animate({opacity:'0.1'},100,function(){
-    $(this).next('h5').show();
-});
-}); //end mouseenter
-$('.imglinkdiv').on('mouseleave', function(){
-
-$(this).stop(true, false).animate({opacity:'1'}, 100, function(){
-    $(this).next('h5').hide();
-});
-});//end mouseout, hover
-</script>
 
 </body>
 </html>
