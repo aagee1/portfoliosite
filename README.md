@@ -1,2 +1,2 @@
 # portfoliosite
-portfolio site. doing this here instead of tumblr. 
+portfolio site. base for tumblr stuff. still trying to figure out things. 
